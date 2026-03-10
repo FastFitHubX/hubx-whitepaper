@@ -1,0 +1,25 @@
+graph LR
+    subgraph "User Activity"
+        Step[Steps/Run]
+        Gym[Strength Training]
+        Sleep[Recovery Data]
+    end
+
+    subgraph "FastFitHub Engine"
+        Validation[Activity Verification Model]
+        MultiAsset[Multi-Asset Reward Engine]
+    end
+
+    subgraph "User Wallet"
+        HUBX_Wallet[HubXCoin $HUBX]
+        BTC_Wallet[Bitcoin $BTC]
+        DOGE_Wallet[Dogecoin $DOGE]
+    end
+
+    Step --> Validation
+    Gym --> Validation
+    Sleep --> Validation
+    Validation -->|Verified| MultiAsset
+    MultiAsset -->|Primary Reward| HUBX_Wallet
+    MultiAsset -->|Performance Bonus| BTC_Wallet
+    MultiAsset -->|Community Bonus| DOGE_Wallet

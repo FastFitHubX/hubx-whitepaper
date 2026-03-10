@@ -1,0 +1,36 @@
+graph TD
+    subgraph "User Layer"
+        User[User/Athlete]
+        Wearable[Wearable Devices/App]
+    end
+
+    subgraph "FastFitHub Core"
+        Verification[Activity Verification Engine]
+        RewardEngine[Reward Distribution Engine]
+        SmartContracts[Smart Contracts Layer]
+    end
+
+    subgraph "Asset Layer"
+        HUBX[HubXCoin $HUBX]
+        BTC[Bitcoin Rewards]
+        DOGE[Dogecoin Rewards]
+    end
+
+    subgraph "Utility Layer"
+        Marketplace[Ecosystem Marketplace]
+        Staking[Staking & Governance]
+        Coaching[AI Coaching OS]
+    end
+
+    User -->|Activity Data| Wearable
+    Wearable -->|Proof of Workout| Verification
+    Verification -->|Validated Data| RewardEngine
+    RewardEngine -->|Mint/Distribute| SmartContracts
+    SmartContracts -->|Issue| HUBX
+    SmartContracts -->|Issue| BTC
+    SmartContracts -->|Issue| DOGE
+    HUBX -->|Payment/Access| Marketplace
+    HUBX -->|Lock| Staking
+    Marketplace -->|Services| User
+    Staking -->|Rewards/Votes| User
+    Coaching -->|Personalized Plans| User
