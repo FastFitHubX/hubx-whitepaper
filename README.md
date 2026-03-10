@@ -1,56 +1,45 @@
-Version: HUBX Whitepaper v1.0 (2026)
+# HUBX — The First Fitness-Backed Digital Asset
 
-# HUBX Whitepaper
+Bitcoin = Proof of Work  
+Ethereum = Proof of Stake  
+HUBX = Proof of Workout
 
-## The First Fitness-Backed Digital Asset
+HUBX is a performance-backed digital asset powering the FastFitHub ecosystem.
 
-HUBX is a performance-backed digital asset powering the FastFitHub ecosystem. It introduces a new incentive model where verified fitness activity generates digital asset rewards.
+Workout → FastFitHub App → Reward Engine → HUBX → Marketplace
 
-## Ecosystem Overview
+---
 
-HUBX is integral to the FastFitHub ecosystem, connecting real-world fitness activities with digital rewards and a vibrant marketplace. The flow is designed to be intuitive and rewarding:
+## Why HUBX
 
-```
-Workout Activity
-        ↓
-FastFitHub App
-        ↓
-Reward Engine
-        ↓
-HUBX Token
-        ↓
-Marketplace / Coaching / Rewards
-```
+Bitcoin rewards capital.  
+Dogecoin rewards memes.  
+HUBX rewards discipline.
 
-This seamless integration ensures that every effort in your fitness journey can be tangibly rewarded and utilized within the ecosystem.
+Millions of people work out daily but receive no financial incentive.
 
-## Comparison Section
+HUBX introduces a system where **physical performance generates digital value.**
 
-To highlight the unique value proposition of HUBX, let's compare it with other prominent digital assets:
+---
 
-| Asset     | Concept                                  |
-| :-------- | :--------------------------------------- |
-| Bitcoin   | Digital scarcity                         |
-| Dogecoin  | Community currency                       |
-| HUBX      | Performance-backed asset                 |
+## Whitepaper
 
-This comparison underscores HUBX's innovative approach as a digital asset directly tied to real-world performance and utility within a dedicated ecosystem.
+Read the official whitepaper:
 
-## Whitepaper Sections
+https://github.com/FastFitHubX/hubx-whitepaper/blob/main/HUBX_Whitepaper_v1.0.pdf
 
-For a comprehensive understanding of HUBX and the FastFitHub ecosystem, the full whitepaper covers the following key sections:
+---
 
-*   Abstract
-*   Problem
-*   Solution
-*   Architecture
-*   Tokenomics
-*   Issuance Model
-*   Ecosystem Integration
-*   Roadmap
+## Ecosystem
 
-## Download the Full Whitepaper
+FastFitHub Platform  
+https://fastfithub.com
 
-For a detailed and professionally formatted document, download the official PDF version:
+Rewards Platform  
+https://rewards.fastfithub.com
 
-[HUBX Whitepaper v1.0 (2026)](HUBX_Whitepaper_v1.0.pdf)
+---
+
+## Vision
+
+To build the world's first **fitness-driven digital economy.**
