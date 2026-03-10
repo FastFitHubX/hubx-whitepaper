@@ -13,41 +13,31 @@ The traditional health and fitness industry often suffers from centralized contr
 
 ### 1.3 Our Solution: FastFitHub and HUBX
 FastFitHub leverages blockchain technology to create a decentralized ecosystem that addresses these challenges. HUBX acts as the primary medium of exchange, a reward mechanism, and a governance tool. By integrating smart contracts, decentralized identifiers (DIDs), and a robust tokenomics model, FastFitHub aims to:
-*   **Incentivize Healthy Lifestyles:** Reward users with HUBX for achieving fitness goals, participating in challenges, and contributing to the community.
-*   **Foster Community Engagement:** Enable peer-to-peer interactions, community-led initiatives, and decentralized autonomous organization (DAO) governance.
-*   **Ensure Data Transparency and Ownership:** Provide users with control over their health data, allowing them to share it securely and selectively.
-*   **Facilitate a Decentralized Marketplace:** Create a marketplace for fitness professionals, wellness coaches, and health product providers to offer services and goods, all transacted with HUBX.
+FastFitHub aims to **incentivize healthy lifestyles** by rewarding users with HUBX for achieving fitness goals, participating in challenges, and contributing to the community. It also seeks to **foster community engagement** through peer-to-peer interactions, community-led initiatives, and decentralized autonomous organization (DAO) governance. A core objective is to **ensure data transparency and ownership**, providing users with control over their health data, allowing them to share it securely and selectively. Furthermore, the platform will **facilitate a decentralized marketplace** where fitness professionals, wellness coaches, and health product providers can offer services and goods, all transacted with HUBX.
 
 ## 2. Technology and Architecture
 
 ### 2.1 Blockchain Foundation
-HUBX is built on a high-throughput, low-latency blockchain, ensuring efficient and scalable operations. The choice of blockchain emphasizes security, decentralization, and compatibility with existing Web3 infrastructure. Details of the underlying blockchain and its consensus mechanism are elaborated in the `architecture.md` document.
+HUBX is built on a high-throughput, low-latency blockchain, ensuring efficient and scalable operations. The choice of blockchain emphasizes security, decentralization, and compatibility with existing Web3 infrastructure. Details of the underlying blockchain and its consensus mechanism are elaborated in the `../docs/architecture.md` document.
 
 ### 2.2 Smart Contracts
 Core functionalities of FastFitHub, including reward distribution, staking, governance, and marketplace transactions, are managed by audited smart contracts. These contracts ensure transparency, immutability, and automated execution of ecosystem rules.
 
 ### 2.3 Decentralized Applications (dApps)
 The FastFitHub ecosystem comprises several dApps, each serving a specific function:
-*   **Fitness Tracker dApp:** Records and verifies physical activity, integrating with wearable devices.
-*   **Wellness Program dApp:** Offers personalized health plans and tracks progress.
-*   **Marketplace dApp:** Facilitates the exchange of health-related services and products.
-*   **Governance dApp:** Enables HUBX holders to propose and vote on ecosystem developments.
+The FastFitHub ecosystem comprises several dApps, each serving a specific function. The **Fitness Tracker dApp** records and verifies physical activity, integrating seamlessly with wearable devices. The **Wellness Program dApp** offers personalized health plans and tracks user progress. A **Marketplace dApp** facilitates the exchange of health-related services and products. Finally, a **Governance dApp** empowers HUBX holders to propose and vote on ecosystem developments, ensuring community-driven evolution.
 
 ## 3. Tokenomics of HUBX
 
 ### 3.1 Token Utility
 HUBX is a multi-utility token with several key functions:
-*   **Transaction Fees:** Used to pay for services and transactions within the FastFitHub marketplace.
-*   **Staking:** Holders can stake HUBX to earn rewards and participate in network security.
-*   **Governance:** HUBX holders have voting rights in the FastFitHub DAO, influencing key decisions.
-*   **Rewards:** Distributed as incentives for achieving fitness milestones, contributing content, and active participation.
-*   **Access:** Grants access to premium features, exclusive content, and advanced wellness programs.
+HUBX is a multi-utility token with several key functions. It is used for **transaction fees** within the FastFitHub marketplace. Holders can **stake** HUBX to earn rewards and participate in network security. Through **governance**, HUBX holders have voting rights in the FastFitHub DAO, influencing key decisions. HUBX is also distributed as **rewards** for achieving fitness milestones, contributing content, and active participation. Furthermore, it grants **access** to premium features, exclusive content, and advanced wellness programs.
 
 ### 3.2 Token Distribution and Supply
-The total supply and distribution model of HUBX are designed to ensure long-term sustainability, fair allocation, and gradual release to prevent market manipulation. A detailed breakdown of token allocation, vesting schedules, and inflation/deflation mechanisms is provided in `docs/tokenomics.md`.
+The total supply and distribution model of HUBX are designed to ensure long-term sustainability, fair allocation, and gradual release to prevent market manipulation. A detailed breakdown of token allocation, vesting schedules, and inflation/deflation mechanisms is provided in `../docs/tokenomics.md`.
 
 ## 4. Roadmap
-The development of FastFitHub and HUBX is guided by a clear, phased roadmap focusing on continuous innovation and community growth. Key milestones and future developments are detailed in `docs/roadmap.md`.
+The development of FastFitHub and HUBX is guided by a clear, phased roadmap focusing on continuous innovation and community growth. Key milestones and future developments are detailed in `../docs/roadmap.md`.
 
 ## 5. Comparison with Other Digital Assets
 

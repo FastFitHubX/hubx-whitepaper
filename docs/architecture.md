@@ -6,44 +6,25 @@ The FastFitHub ecosystem, powered by HUBX, is designed as a modular and scalable
 ## 2. Core Components
 
 ### 2.1 Blockchain Layer
-*   **Base Layer Protocol:** [Specify chosen blockchain, e.g., a custom Layer 1, or a Layer 2 solution on Ethereum/Solana]. This layer handles transaction finality, state management, and provides the foundational security for the ecosystem.
-*   **Consensus Mechanism:** [Specify, e.g., Proof-of-Stake (PoS), Delegated Proof-of-Stake (DPoS)]. Ensures network integrity and transaction validation.
-*   **Smart Contracts:** Deployed on the blockchain layer, these contracts govern core functionalities:
-    *   **HUBX Token Contract:** Manages the creation, transfer, and burning of HUBX tokens.
-    *   **Staking Contract:** Facilitates staking of HUBX and distribution of rewards.
-    *   **Governance Contract:** Enables DAO proposals and voting mechanisms.
-    *   **Marketplace Contracts:** Manages listings, transactions, and dispute resolution for services and products.
-    *   **Reward Distribution Contracts:** Automates the distribution of HUBX rewards based on verified activities.
+The **Blockchain Layer** forms the foundation, utilizing a **Base Layer Protocol** (e.g., a custom Layer 1, or a Layer 2 solution on Ethereum/Solana) to handle transaction finality, state management, and provide foundational security. A robust **Consensus Mechanism** (e.g., Proof-of-Stake (PoS), Delegated Proof-of-Stake (DPoS)) ensures network integrity and transaction validation. **Smart Contracts**, deployed on this layer, govern core functionalities including the **HUBX Token Contract** for token management, **Staking Contract** for rewards, **Governance Contract** for DAO proposals, **Marketplace Contracts** for transactions, and **Reward Distribution Contracts** for automated reward distribution.
 
 ### 2.2 Off-Chain Services
-*   **Data Storage (Decentralized/Centralized Hybrid):**
-    *   **Decentralized Storage (e.g., IPFS, Arweave):** Used for immutable storage of user-generated content, verifiable health records (with user consent), and dApp assets.
-    *   **Centralized Databases (e.g., PostgreSQL, MongoDB):** Employed for high-throughput, frequently accessed, or non-sensitive data that benefits from traditional database performance (e.g., user profiles, activity logs for analytics, cached blockchain data).
-*   **API Gateway:** Provides a unified entry point for dApps and external integrations, abstracting the complexity of interacting with both on-chain and off-chain components.
-*   **Indexing Services:** [e.g., The Graph Protocol, custom indexers]. Indexes blockchain data to enable fast and efficient querying for dApps, avoiding direct blockchain RPC calls for common data retrieval.
-*   **Oracles:** Connect smart contracts with real-world data (e.g., fitness tracker data, market prices) to trigger events or validate conditions on-chain.
-*   **Identity Management (DID-based):** Utilizes Decentralized Identifiers (DIDs) for user identity, allowing self-sovereign control over personal data and credentials. Integration with Verifiable Credentials (VCs) for health data.
+Off-chain services are crucial for performance and flexibility. **Data Storage** employs a hybrid approach, using **Decentralized Storage** (e.g., IPFS, Arweave) for immutable content and verifiable health records, and **Centralized Databases** (e.g., PostgreSQL, MongoDB) for high-throughput or non-sensitive data. An **API Gateway** provides a unified entry point for dApps. **Indexing Services** (e.g., The Graph Protocol) enable efficient querying of blockchain data. **Oracles** connect smart contracts with real-world data, and **Identity Management** utilizes Decentralized Identifiers (DIDs) for self-sovereign user identity and Verifiable Credentials (VCs) for health data.
 
 ## 3. FastFitHub Application Layer
 
 ### 3.1 User Interfaces (UIs)
-*   **Web dApps:** Responsive web applications for desktop and mobile browsers, providing access to all FastFitHub features.
-*   **Mobile Applications:** Native iOS and Android applications for enhanced performance, offline capabilities, and seamless integration with device sensors (e.g., fitness trackers).
+The FastFitHub Application Layer includes **User Interfaces (UIs)** such as responsive **Web dApps** for desktop and mobile browsers, providing access to all FastFitHub features. Additionally, **Mobile Applications** are developed as native iOS and Android apps for enhanced performance, offline capabilities, and seamless integration with device sensors like fitness trackers.
 
 ### 3.2 Integration with Wearable Devices
-*   **Data Connectors:** Secure APIs and SDKs to integrate with popular fitness wearables (e.g., Apple HealthKit, Google Fit, Garmin, Fitbit). Data is processed off-chain and then, with user consent, verifiable summaries or proofs are committed to the blockchain via oracles.
+Integration with Wearable Devices is achieved through **Data Connectors**, which are secure APIs and SDKs designed to integrate with popular fitness wearables (e.g., Apple HealthKit, Google Fit, Garmin, Fitbit). Data is processed off-chain, and with user consent, verifiable summaries or proofs are committed to the blockchain via oracles.
 
 ## 4. Security Considerations
-*   **Smart Contract Audits:** All smart contracts undergo rigorous third-party security audits before deployment.
-*   **Data Encryption:** End-to-end encryption for all sensitive off-chain data and communication.
-*   **Access Control:** Role-based access control (RBAC) for off-chain services and multi-signature requirements for critical on-chain operations.
-*   **Decentralized Governance:** Reduces single points of failure and allows the community to address vulnerabilities.
+Security is paramount, with all **Smart Contract Audits** conducted by rigorous third-party firms. **Data Encryption** ensures end-to-end security for all sensitive off-chain data and communication. **Access Control** utilizes Role-Based Access Control (RBAC) for off-chain services and multi-signature requirements for critical on-chain operations. Finally, **Decentralized Governance** reduces single points of failure and empowers the community to address vulnerabilities.
 
 ## 5. Scalability and Performance
-*   **Layer 2 Solutions:** Exploration and potential integration of Layer 2 scaling solutions [e.g., rollups, sidechains] to enhance transaction throughput and reduce gas fees.
-*   **Optimized Data Indexing:** Efficient indexing strategies to ensure dApps can retrieve and display data quickly.
-*   **Content Delivery Networks (CDNs):** For static assets and dApp frontends to ensure fast global access.
+Scalability and Performance are addressed through the exploration and potential integration of **Layer 2 Solutions** (e.g., rollups, sidechains) to enhance transaction throughput and reduce gas fees. **Optimized Data Indexing** strategies ensure dApps can retrieve and display data quickly, complemented by **Content Delivery Networks (CDNs)** for static assets and dApp frontends to ensure fast global access.
 
 ## 6. Ecosystem Architecture Diagram
 
-[Refer to `diagrams/ecosystem.png` for a visual representation of the HUBX ecosystem architecture.]
+[Refer to `../diagrams/ecosystem-flow.png` for a visual representation of the HUBX ecosystem architecture.]
